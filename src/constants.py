@@ -1,0 +1,28 @@
+__all__ = [
+    "INPUT_PATCH_LEN",
+    "OUTPUT_PATCH_LEN",
+    "NUM_LAYERS",
+    "NUM_HEADS",
+    "MODEL_DIMS",
+    "USE_FREQ",
+    "DEVICE",
+    "VERBOSE",
+    "DEFAULT_QUANTILES",
+    "PAD_VAL",
+    "MAX_LEN",
+    "_TOLERANCE",
+]
+
+# fixed parameters
+INPUT_PATCH_LEN = 32
+OUTPUT_PATCH_LEN = 128
+NUM_LAYERS = 20
+NUM_HEADS = 16
+MODEL_DIMS = 1280
+USE_FREQ = True
+DEVICE = "auto"
+VERBOSE = True
+DEFAULT_QUANTILES = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+PAD_VAL = 1123581321.0
+MAX_LEN = 512
+_TOLERANCE = 1e-7
